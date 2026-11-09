@@ -1,3 +1,59 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+header a svg, 
+.page-header svg, 
+.title svg,
+.desktop-only svg,
+[class*="icon"] {
+  display: none !important;
+}
+
+/* The Perfect Proportional Uncropped Rectangle Row */
+.portfolio-rectangle-row {
+  display: flex !important;
+  flex-direction: row !important; /* Strictly forces them to sit 
+side-by-side */
+  width: 100% !important;        /* Fills the column width completely */
+  gap: 40px !important;          /* Clean 40px inner seam gap */
+  margin: 40px 0 15px 0 !important;
+  align-items: stretch !important;
+
+  div {
+    overflow: hidden;
+    border-radius: 6px;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block !important;
+
+    /* The Portrait Container (6:8) */
+    &:nth-of-type(1) {
+      flex: 57.143% !important; /* Math-based share of the column */
+    }
+
+    /* The Square Container (8:8) */
+    &:nth-of-type(2) {
+      flex: 42.857% !important; /* Math-based larger share to match height 
+*/
+    }
+
+    img {
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover !important; /* Keeps them locked flush and even */
+      display: block !important;
+      transition: transform 0.4s ease !important;
+
+      &:hover {
+        transform: scale(1.04) !important; /* Premium 4% smooth zoom */
+      }
+    }
+  }
+}
+
+img {
+  mix-blend-mode: multiply !important; /* Forces the whites in your photos 
+to dissolve seamlessly into the page */
+}
+
