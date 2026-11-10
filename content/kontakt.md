@@ -1,3 +1,7 @@
+---
+title: kontakt
+order: 2
+---
  <div class="image-wrapper top-focal-photo">
     <img src="mig.jpg" />
   </div>

@@ -150,9 +150,6 @@ plugins:
           title: "Navigering"
           folderDefaultState: open
           folderClickBehavior: link
-          order:
-            - process
-            - kontakt
   - source: "@quartz-community/graph"
     enabled: false
     layout:
