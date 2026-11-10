@@ -146,13 +146,9 @@ plugins:
   - source: "@quartz-community/explorer"
     enabled: true
     options:
-      title: "navigering"
       - Explorer:
           title: "Navigering"
           folderDefaultState: open
-          order:
-            - process
-            - kontakt
       folderClickBehavior: "link"
       collapseByDefault: false
       useSavedState: false
