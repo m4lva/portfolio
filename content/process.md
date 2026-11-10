@@ -1,10 +1,3 @@
----
-title: Process
-aliases:
-  - Process
----
-,
-
 <!-- BULLETPROOF SIDE-BY-SIDE GRID (SQUARES PERFECTLY ALIGNED) -->
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin: 40px 0 15px 0;">
   
