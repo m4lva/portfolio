@@ -1,9 +1,11 @@
 Component.Explorer({
-  title: "Navigering", // Renames your sidebar title
-  sort: (a, b) => {
+  title: "Navigering",
+  sortFn: (a, b) => {
     const order = { "process": 1, "contact": 2 }
-    const aOrder = order[a.name.toLowerCase()] || 99
-    const bOrder = order[b.name.toLowerCase()] || 99
+    const aName = a.name.toLowerCase()
+    const bName = b.name.toLowerCase()
+    const aOrder = order[aName] || 99
+    const bOrder = order[bName] || 99
     return aOrder - bOrder
   }
 })
