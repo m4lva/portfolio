@@ -147,6 +147,12 @@ plugins:
     enabled: true
     options:
       - Explorer:
+          title: "Navigering"
+          folderDefaultState: open
+          folderClickBehavior: link
+          order:
+            - process
+            - kontakt
   - source: "@quartz-community/graph"
     enabled: false
     layout:
