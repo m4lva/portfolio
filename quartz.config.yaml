@@ -150,8 +150,8 @@ plugins:
       folderDefaultState: open
       folderClickBehavior: link
       sort:
-        type: frontmatter
-        key: order
+        by: frontmatter
+        property: order
     layout:
       position: left
       priority: 50
