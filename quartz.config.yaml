@@ -149,6 +149,7 @@ plugins:
       title: "Navigering"
       folderDefaultState: open
       folderClickBehavior: link
+      titleMode: title
       sort:
         by: frontmatter
         property: order
