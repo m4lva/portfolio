@@ -149,12 +149,8 @@ plugins:
       - Explorer:
           title: "Navigering"
           folderDefaultState: open
-      folderClickBehavior: "link"
-      collapseByDefault: false
-      useSavedState: false
-    layout:
-      position: left
-      priority: 50
+          folderClickBehavior: link
+
   - source: "@quartz-community/graph"
     enabled: false
     layout:
