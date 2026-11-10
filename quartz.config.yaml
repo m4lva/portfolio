@@ -143,9 +143,6 @@ plugins:
     enabled: true
   - source: "@quartz-community/tag-page"
     enabled: false
-  - source: "@quartz-community/explorer"
-    enabled: true
-    options:
       - Explorer:
           title: "Navigering"
           folderDefaultState: open
