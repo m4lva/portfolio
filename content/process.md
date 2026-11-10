@@ -34,8 +34,28 @@ Tekanna-experiment
 
 
 <div class="portfolio-rectangle-row">
-  <div><img src="mambarn.jpg" /></div>
-  <div><img src="mambarn2.jpg" /></div>
+  # <div><img src="mambarn.jpg" /></div>
+  <!-- THE CLICKABLE PHOTO PREVIEW -->
+<a href="#img1" data-no-popover="true">
+  <img src="mambarn.jpg" style="width: 300px; cursor: zoom-in;" />
+</a>
+
+<!-- THE SOLID FULL SCREEN POPUP CANVAS -->
+<a href="#_" class="lightbox-target" id="img1" data-no-popover="true">
+  <img src="mambarn.jpg" />
+</a>
+
+  # <div><img src="mambarn2.jpg" /></div>
+  <!-- THE CLICKABLE PHOTO PREVIEW -->
+<a href="#img1" data-no-popover="true">
+  <img src="mambarn2.jpg" style="width: 300px; cursor: zoom-in;" />
+</a>
+
+<!-- THE SOLID FULL SCREEN POPUP CANVAS -->
+<a href="#_" class="lightbox-target" id="img1" data-no-popover="true">
+  <img src="mambarn2.jpg" />
+</a>
+
 </div>
 
 <p style="text-align: center; color: #a0a0a0; font-size: 0.85em; margin-top: 20px; letter-spacing: 0.03em;">
