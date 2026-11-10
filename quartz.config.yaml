@@ -143,13 +143,13 @@ plugins:
     enabled: true
   - source: "@quartz-community/tag-page"
     enabled: false
-  - source: "@quartz-community/explorer"
+  - source: "@quartz-community/content-links"
     enabled: true
     options:
       title: "Navigering"
-      folderDefaultState: open
-      folderClickBehavior: link
-      overrideMap: true
+      links:
+        - 01_process
+        - 02_kontakt
     layout:
       position: left
       priority: 50
