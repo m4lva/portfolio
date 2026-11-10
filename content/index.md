@@ -68,16 +68,16 @@
   <!-- Bottom Pair (6x8 Dimensions) -->
   <div class="portfolio-grid">
     <div class="image-wrapper">
-      <img src="vk1.jpeg" class="ratio-6-8" />
+      <img src="vk1.webp" class="ratio-6-8" />
     </div>
     <div class="image-wrapper">
-      <img src="vk3.jpeg" class="ratio-6-8" />
+      <img src="vk3.webp" class="ratio-6-8" />
     </div>
   </div>
   
   <!-- Top Main Focal Photo (Different Dimensions) -->
   <div class="image-wrapper top-focal-photo">
-    <img src="vk2.jpeg" />
+    <img src="vk2.webp" />
   </div>
   
   <p class="single-caption">Tillit</p>
@@ -106,7 +106,7 @@
 <hr class="section-divider" />
 
  <div class="image-wrapper top-focal-photo">
-    <img src="tb.jpg" />
+    <img src="tb.webp" />
   </div>
   <p class="single-caption">Jag menade inte att såra dig</p>
 </div>
