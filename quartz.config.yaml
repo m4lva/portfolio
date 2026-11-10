@@ -147,17 +147,12 @@ plugins:
     enabled: true
     options:
       title: "navigering"
-     - Explorer:
-      title: "Navigering"
-      sortFn: |
-        (a, b) => {
-          const order = { "process": 1, "contact": 2 }
-          const aOrder = order[a.name.toLowerCase()] || 99
-          const bOrder = order[b.name.toLowerCase()] || 99
-          return aOrder - bOrder
-        }
-
-      folderDefaultState: "open"
+      - Explorer:
+          title: "Navigering"
+          folderDefaultState: open
+          order:
+            - process
+            - kontakt
       folderClickBehavior: "link"
       collapseByDefault: false
       useSavedState: false
