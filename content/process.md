@@ -1,3 +1,8 @@
+---
+title: Process
+aliases:
+  - Process
+---
 
 
 <!-- BULLETPROOF SIDE-BY-SIDE GRID (SQUARES PERFECTLY ALIGNED) -->
@@ -22,6 +27,8 @@
     <img 
       src="tek.jpeg" 
       style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; margin: 0;" 
+      onmouseover="this.style.transform='scale(1)';" 
+      onmouseout="this.style.transform='scale(1)';" 
     />
   </div>
 
