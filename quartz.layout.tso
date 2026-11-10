@@ -1,0 +1,4 @@
+kkComponent.Explorer({
+  title: "Navigering",
+})
+
