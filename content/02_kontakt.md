@@ -3,7 +3,7 @@ title: Kontakt
 order: 2
 ---
  <div class="image-wrapper top-focal-photo">
-    <img src="mig.jpg" />
+    <img src="mig.webp" />
   </div>
   
 </div>

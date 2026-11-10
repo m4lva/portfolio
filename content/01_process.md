@@ -24,7 +24,7 @@ order: 1
   <!-- RIGHT SIDE: SQUARE IMAGE (SMOOTH HOVER ZOOM) -->
   <div style="border-radius: 6px; overflow: hidden; margin: 0; padding: 0; line-height: 0;">
     <img 
-      src="tek.jpeg" 
+      src="tek.webp" 
       style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; margin: 0;" 
       onmouseover="this.style.transform='scale(1)';" 
       onmouseout="this.style.transform='scale(1)';" 
@@ -41,8 +41,8 @@ Tekanna-experiment
 
 <!-- THE CORRECT FULL-WIDTH SIDE-BY-SIDE ROW -->
 <div class="portfolio-rectangle-row">
-  <div><img src="mambarn.jpg" /></div>
-  <div><img src="mambarn2.jpg" /></div>
+  <div><img src="mambarn.webp" /></div>
+  <div><img src="mambarn2.webp" /></div>
 </div>
 <p style="text-align: center; color: #a0a0a0; font-size: 0.85em; margin-top: 20px; letter-spacing: 0.03em;">
 Skulpturskisser
@@ -54,7 +54,7 @@ Skulpturskisser
   <!-- LEFT SIDE: SQUARE VIDEO (HOVER TO PLAY, NO ZOOM, NO SOUND) -->
  <div style="border-radius: 6px; overflow: hidden; margin: 0; padding: 0; line-height: 0;">
     <img 
-      src="stranden2.jpg" 
+      src="stranden2.webp" 
       style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; transition: transform 0.4s ease; margin: 0;" 
     />
   </div>
@@ -62,7 +62,7 @@ Skulpturskisser
   <!-- RIGHT SIDE: SQUARE IMAGE (SMOOTH HOVER ZOOM) -->
   <div style="border-radius: 6px; overflow: hidden; margin: 0; padding: 0; line-height: 0;">
     <img 
-      src="stranden.jpg" 
+      src="stranden.webp" 
       style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; transition: transform 0.4s ease; margin: 0;" 
     />
   </div>

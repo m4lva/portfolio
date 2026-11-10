@@ -92,10 +92,10 @@
 <div>
   <div class="portfolio-grid" style="margin-top: 0;">
     <div class="image-wrapper">
-      <img src="fat1.PNG" class="ratio-square" />
+      <img src="fat1.webp" class="ratio-square" />
     </div>
     <div class="image-wrapper">
-      <img src="fat2.PNG" class="ratio-square" />
+      <img src="fat2.webp" class="ratio-square" />
     </div>
   </div>
   
